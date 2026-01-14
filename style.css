@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Time New Roman, sans-serif;
+}
+body {
+    background-color: whitesmoke;
+}
+.banner {
+    width: 100%;
+    height: 400px; 
+    overflow: hidden;
+}
+img {
+    width: 100%;
+}
+.card-wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -150px; 
+}
+.card {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.blue-bg { background-color: skyblue; }
+.green-bg { background-color: greenyellow; }
+.orange-bg { background-color: lightyellow; }
+.card h3 {
+    margin-bottom: 15px;
+}
+.card p {
+    margin-bottom: 25px;
+}
+.btn {
+    padding: 10px 20px;
+    color: deeppink;
+}
+.btn-blue { background-color: skyblue; }
+.btn-green { background-color: greenyellow; }
+.btn-orange { background-color: lightyellow; }
+.basic-elements {
+    margin-top: 250px; 
+}
+.basic-elements h2 {
+    margin-bottom: 30px;
+}
+.btn-outline-blue {
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+}
+.btn-filled-blue {
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+.btn-round {
+    padding: 10px 25px;
+    color: dodgerblue;
+    border-radius: 30px;
+    background: white;
+}
+.btn-icon {
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 20px;
+}
+.simple-link {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.p-link { color: lightskyblue; }
+.s-link { color: dimgray; }
+.suc-link { color: green; }
+.dan-link { color: red; }
+.war-link { color: orange; }
