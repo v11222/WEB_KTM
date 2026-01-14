@@ -1,0 +1,28 @@
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                url('https://images.unsplash.com/photo-1470252649358-96947c0338bd?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.container h3 {
+    font-weight: 300;
+}
+
+.link-primary, .link-secondary, .link-success, .link-danger, .link-warning, .link-info, .link-dark {
+    text-decoration: none;
+    font-weight: 500;
+}
+ 
